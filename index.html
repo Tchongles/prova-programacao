@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Playfair=Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Uma loja de jogo</title>
+</head>
+<body>
+    <header class="cabeçalho">    
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-quadriculas container__imagem"></span>
+            </label>
+        <ul class="lista-menu">
+            <li type="circle" class="lista-menu__titulo">Categorias</li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-1">Jogos</a></li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-2">DLCs</a></li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-3">Jogos</a></li>
+        </ul>
+        <img src="logo3.0 (1).png" alt="Logo do Site" class="container__imagem">
+        </div>
+        <div class="container">
+        <a href="#"><img src="favorito2.0.PNG" alt="meus favoritos" class="container__imagem"></a>
+        <a href="#"><img src="compras.PNG" alt="minhas compras" class="container__imagem"></a>
+        <a href="#"><img src="perfil.PNG" alt="meu perfil" class="container_imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo"> Essa é a loja na qual você procurava, com jogos no preço que cabe no bolso do povo brasileiro</h2>
+        <input type="search" class="banner__pesquisa" placeholder="Navegar">
+        </section>
+    <section class="carrossel" >
+        <h2 class="carrosel__titulo"> Lista de jogos</h2>
+        <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="God_of_War_2018_capa.png"alt="God Of War"></div>
+            <div class="swiper-slide"><img src="r58nrxek.jpg"alt="Terraria"></div>
+            <div class="swiper-slide"><img src="Spider-Man_Miles_Morales_capa.png"alt="Spider Man Miles Morales"></div>
+            <div class="swiper-slide"><img src="Elden_Ring_capa.jpg"alt="Elden Ring"></div>
+            <div class="swiper-slide"><img src="270px-Sekiro_Shadows_Die_Twice_capa.png"alt="Sekiro"></div>
+            <div class="swiper-slide"><img src="The_Last_of_Us_capa.png"alt="The Last Of Us"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        </div>
+    <div class="card">
+        <div class="card_descrição">
+            <div class="descrição">
+                <h3 class="descrição__titulo">Obrigado por visitar nosso site</h3>
+                <h2 class="descrição__titulo-livro"></h2>
+                <p class="descrição__texto">Preços em "Saiba Mais"</p>
+            </div>
+            
+        </div>
+        <div class="card__botões">
+            <u1 class="botões">
+            </u1>
+            <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+    </div>
+    </section>
+    <section class="topicos">
+       
+        <ul class="topicos__listas">
+            <ul class="topicos__itens">
+            
+            </ul>
+        </u1>
+    </section>
+    <section class="contato">
+        <h2 class="contato__titulo">Mais novidades a caminho</h2>
+        <p class="contato__texto">Sempre fique atento para mais novidades!</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper',{
+            spaceBetween: 10,
+            slidePerView: 3,
+            pagination: {
+                el:'.swiper-pagination',
+                type:'bullets',
+            },
+            });
+        </script>
+</body>
+</html>
