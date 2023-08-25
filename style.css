@@ -1,0 +1,23 @@
+@import url("header.css");
+@import url("contato.css");
+@import url("carrosel.css");
+@import url("reset.css");
+@import url("topicos.css");
+@import url("banner.css");
+
+:root{
+    --cor-de-fundo: #f00303;
+    --cor-de-fundo: rgb(255, 255, 255); 
+    --titulo: #0b0c0c;
+    --cor-do-menu-fundo: #020202; 
+    --link-1: #000000;
+    --link-2: #ffffff;
+    --link-3: #ffffff;
+    --fonte-principal:"fasthand" 
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
